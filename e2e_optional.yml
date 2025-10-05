@@ -1,0 +1,9 @@
+name: e2e_optional
+on:
+  workflow_dispatch:
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Add Playwright or Flutter drive tests later."
